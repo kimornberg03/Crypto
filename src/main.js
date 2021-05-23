@@ -6,12 +6,15 @@ const app = new App({
 
 export default app;
 
-/*
-let password = "qwerty"
+function loginfunc()
+{
 
-if (password = "qwerty") {
-	return true
-} else {
-	return false
+	if (document.getElementById('Password').value = "qwerty")
+	{
+		return true
+	} 
+	else 
+	{	
+		return false
+	}
 }
-*/
